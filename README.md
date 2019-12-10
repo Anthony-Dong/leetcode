@@ -4,7 +4,7 @@
 
 ### 1. LeetCode - 2 [两数相加](https://leetcode-cn.com/problems/add-two-numbers/)
 
- [源码位置](./Leet-Code/src/main/java/com/num2) , [讲解](./Leet-Code/src/main/java/com/num2.README.md)
+ [源码位置](./Leet-Code/src/main/java/com/num2) , [讲解](./Leet-Code/src/main/java/com/num2/README.md)
 
 ### 2. LeetCode - 19 [删除链表的倒数第N个节点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)
 
@@ -12,7 +12,7 @@
 
 ### 3. LeetCode -  92 [反转链表 II](https://leetcode-cn.com/problems/reverse-linked-list-ii/)
 
- [源码位置](./Leet-Code/src/main/java/com/num92) ,[讲解](./Leet-Code/src/main/java/com/num2.README.md)
+ [源码位置](./Leet-Code/src/main/java/com/num92) ,[讲解](./Leet-Code/src/main/java/com/num92/README.md)
 
 
 
@@ -47,4 +47,3 @@
 ### 1. LeetCode - 1195 [交替打印字符串](https://leetcode-cn.com/problems/fizz-buzz-multithreaded/)
 
  [源码位置](./Leet-Code/src/main/java/com/num1195) , 讲解 
-
