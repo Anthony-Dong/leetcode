@@ -1,11 +1,13 @@
 package com.num92;
 
+import java.util.Collections;
+
 /**
  * 链表翻转 :
  * <a>https://leetcode-cn.com/problems/reverse-linked-list-ii/</a>
  * 其实链表翻转核心思想就是 pre cur temp 三个指针的玩法, 找到pre , 然后cur ,开始玩了 temp=cur.next ,cur.next=pre , pre=cur , cur=temp
  * <p>
- * 当我们翻转指定链表时(start,end) : pre=(start-1)处节点 , cur=(start)处节点 ,
+ * 当我们翻转指定链表时(start,end) : pre=(start-1)处节点 , cur=(start)处节点 ,这里后期节点也是不变的,
  * 开始遍历 , temp=cur.next , cur.next=temp.next , temp.next=pre.next , pre.next=temp  ;
  * 比如  : 1->2->3->4->5->null
  * 条件 : (2,4)
@@ -30,39 +32,6 @@ public class ListNode {
     ListNode(int val, ListNode next) {
         this.val = val;
         this.next = next;
-    }
-
-    /**
-     * 别人的
-     *
-     * @param head
-     * @param m
-     * @param n
-     * @return
-     */
-    public static ListNode reverseBetween2(ListNode head, int m, int n) {
-        // 初始化一个空的
-        ListNode dummy = new ListNode(0);
-
-        // 下一个节点为头节点
-        dummy.next = head;
-
-        //
-        ListNode pre = dummy;
-
-        for (int i = 1; i < m; i++) {
-            pre = pre.next;
-        }
-
-        head = pre.next;
-
-        for (int i = m; i < n; i++) {
-            ListNode nex = head.next;
-            head.next = nex.next;
-            nex.next = pre.next;
-            pre.next = nex;
-        }
-        return dummy.next;
     }
 
 
@@ -108,6 +77,12 @@ public class ListNode {
     }
 
 
+    /**
+     * 链表翻转
+     *
+     * @param head
+     * @return
+     */
     public static ListNode reserve(ListNode head) {
         ListNode prev = null;
         ListNode cur = head;
@@ -120,11 +95,85 @@ public class ListNode {
         return prev;
     }
 
+
+    public static int listNodeLength(ListNode head) {
+        if (head==null) return 0;
+        return listNodeLength(head.next) + 1;
+    }
+
+
+    public static int listNodeLength2(ListNode head) {
+        int len = 0;
+        while (head != null) {
+            head = head.next;
+            len++;
+        }
+        return len;
+    }
+
+
+    public static ListNode copyList(ListNode head) {
+        if(head==null) return null;
+        ListNode replication = new ListNode(head.val);
+        ListNode start = replication;
+        while (head != null) {
+            head = head.next;
+            if (head!=null){
+                replication.next = new ListNode(head.val);
+                replication = replication.next;
+            }
+        }
+        return start;
+    }
+
+
+
+
     public static void main(String[] args) {
 
         ListNode node1 = new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(4, new ListNode(5)))));
-        ListNode node = reverseBetween2(node1, 2, 4);
+//        ListNode node = reverseBetween(node1, 2, 4);
+//        System.out.println(node);
+//        System.out.println(listNodeLength2(node1));
+
+        ListNode node = copyList(node1);
         System.out.println(node);
-        System.out.println(node1);
+
+
     }
+
+    /**
+     * 别人的
+     *
+     * @param head
+     * @param m
+     * @param n
+     * @return
+     */
+    public static ListNode reverseBetween2(ListNode head, int m, int n) {
+        // 初始化一个空的
+        ListNode dummy = new ListNode(0);
+
+        // 下一个节点为头节点
+        dummy.next = head;
+
+        //
+        ListNode pre = dummy;
+
+        for (int i = 1; i < m; i++) {
+            pre = pre.next;
+        }
+
+        head = pre.next;
+
+        for (int i = m; i < n; i++) {
+            ListNode nex = head.next;
+            head.next = nex.next;
+            nex.next = pre.next;
+            pre.next = nex;
+        }
+        return dummy.next;
+    }
+
+
 }

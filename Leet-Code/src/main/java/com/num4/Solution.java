@@ -23,6 +23,12 @@ package com.num4;
 public class Solution {
 
 
+    /**
+     * 归并排序
+     * @param nums1
+     * @param nums2
+     * @return
+     */
     public static int[] mergingDoubleArrs(int[] nums1, int[] nums2) {
 
         int len1 = nums1.length;

@@ -73,6 +73,8 @@ public class ListNode {
                 } else {
                     temp.next.val += curry;
                     if (temp.next.val > 9) {
+
+                        // 这里比较坑 , 需要递归进行添加
                         ListNode temp2 = temp.next;
                         while (temp2.val > 9) {
                             temp2.val -= 10;
@@ -110,11 +112,5 @@ public class ListNode {
         ListNode copy = copy(l1);
         System.out.println(copy);
 
-//        ListNode l2 = new ListNode(9);
-//        ListNode listNode = addTwoNumbers(l1, l2);
-//        System.out.println(listNode);
-//
-//
-//        System.out.println(l1);
     }
 }

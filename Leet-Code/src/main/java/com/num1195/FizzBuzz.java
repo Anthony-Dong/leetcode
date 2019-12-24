@@ -6,11 +6,19 @@ import java.util.function.IntConsumer;
  * 线程A将调用 fizz() 来判断是否能被 3 整除，如果可以，则输出 fizz。
  * 线程B将调用 buzz() 来判断是否能被 5 整除，如果可以，则输出 buzz。
  * 线程C将调用 fizzbuzz() 来判断是否同时能被 3 和 5 整除，如果可以，则输出 fizzbuzz。
- * 线程D将调用 number() 来实现输出既不能被 3 整除也不能被 5 整除的数字。
+ * 线程D将调用 number() 来实现输出既不能被 3 整除也不能被 5 整除的数字。4
+ *
+ *
+ * 同步的思想  ,  线程进来需要同步, 所以需要一个线程锁 , 其实可以是当前类对象, 或者this ,
+ * 就是这个思想 ..... , 题目没有给测试类 , 我找了个测试类
  */
 public class FizzBuzz {
     private final int n;
-    private int x = 1;
+
+    // 加不加无所谓那种
+    private volatile int x = 1;
+
+
     private static final Object lock = new Object();
 
     public FizzBuzz(int n) {
