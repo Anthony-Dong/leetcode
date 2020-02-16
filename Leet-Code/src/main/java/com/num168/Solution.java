@@ -7,6 +7,7 @@ class Solution {
 
     /**
      * 10进制 转换 26进制转换
+     *
      * @param n
      * @return
      */
@@ -23,17 +24,18 @@ class Solution {
             int temp = n % 26;
 
             // 添加到头部
+            //String res = (char)(temp+65)+res;
             res.insert(0, (char) (temp + 'A'));
 
             // 返回
             n = n / 26;
         }
         return res.toString();
-
     }
 
     /**
      * 10 进制转换二进制
+     *
      * @param x
      * @return
      */

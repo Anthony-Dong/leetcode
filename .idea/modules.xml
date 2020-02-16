@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Leet-Code/Leet-Code.iml" filepath="$PROJECT_DIR$/Leet-Code/Leet-Code.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/LeetCode.iml" filepath="$PROJECT_DIR$/.idea/LeetCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/other-practice/other-practice.iml" filepath="$PROJECT_DIR$/other-practice/other-practice.iml" />
     </modules>
   </component>
 </project>

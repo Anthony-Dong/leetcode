@@ -29,12 +29,14 @@
 
 ## 3. 字符串
 >   其实字符串类似于数组, 把他想成数组就行了
-
+>   回文字符串就有一点复杂
 ### 1. LeetCode - 3  [无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
 
  [源码位置](./Leet-Code/src/main/java/com/num3) , [讲解](./Leet-Code/src/main/java/com/num3/README.md)
 
+### 2. LeetCode - 5 [最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/)
 
+ [源码位置](./Leet-Code/src/main/java/com/num5) , [讲解](./Leet-Code/src/main/java/com/num5/README.md)   
 
 ## 4. 数组
 >   大多数数组问题,如果是基于子序列问题, 我们可以用滑动窗口算法
@@ -46,20 +48,24 @@
 ### 2. LeetCode - 152 [乘积最大子序列](https://leetcode-cn.com/problems/maximum-product-subarray/)
 
  [源码位置](./Leet-Code/src/main/java/com/num152) , [讲解](./Leet-Code/src/main/java/com/num152/README.md)
- 
+
 ### 2. LeetCode - 53 [最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)
 
  [源码位置](./Leet-Code/src/main/java/com/num53) , [讲解](./Leet-Code/src/main/java/com/num53/README.md) 
- 
+
 
 ## 5. 10进制转其他进制换问题
 
 ### 1. LeetCode - 168 [Excel表列名称](https://leetcode-cn.com/problems/excel-sheet-column-title)    
  [源码位置](./Leet-Code/src/main/java/com/num168) , [讲解](./Leet-Code/src/main/java/com/num168/README.md)
- 
+
 
 ## 5. 多线程
 
 ### 1. LeetCode - 1195 [交替打印字符串](https://leetcode-cn.com/problems/fizz-buzz-multithreaded/)
 
  [源码位置](./Leet-Code/src/main/java/com/num1195) , [讲解](./Leet-Code/src/main/java/com/num1195/README.md)
+
+
+## 6. 回溯法
+
