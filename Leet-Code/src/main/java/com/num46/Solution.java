@@ -1,7 +1,9 @@
 package com.num46;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Scanner;
 
 /**
  * 回溯法
@@ -35,11 +37,25 @@ public class Solution {
         }
     }
 
+
+
+
     public static void main(String[] args) {
-        Solution solution = new Solution();
 
-        List<List<Integer>> permute = solution.permute(new int[]{1, 2, 3});
+        Scanner scanner = new Scanner(System.in);
+        String str = scanner.next();
 
-        System.out.println(permute);
+        HashSet<Character[]> set = new HashSet<>();
+        char[] array = str.toCharArray();
+        Character[] chars = new Character[2];
+        for (int i = 0; i < array.length; i++) {
+            for (int i1 = 1; i1 < array.length; i1++) {
+                chars[0] = array[i];
+                chars[1] = array[i1];
+                set.add(chars);
+            }
+        }
+        System.out.println(set.size());
+
     }
 }
