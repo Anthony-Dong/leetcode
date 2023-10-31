@@ -10,17 +10,17 @@
 
 ### 1. LeetCode - 2 [两数相加](https://leetcode-cn.com/problems/add-two-numbers/)
 
- [源码位置](./Leet-Code/src/main/java/com/num2) , [讲解](./Leet-Code/src/main/java/com/num2/README.md)
+ [源码位置](./Java/src/main/java/com/num2) , [讲解](./Java/src/main/java/com/num2/README.md)
 
 
 ### 2. LeetCode - 19 [删除链表的倒数第N个节点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)
 
- [源码位置](./Leet-Code/src/main/java/com/num19) , [讲解](./Leet-Code/src/main/java/com/num19/README.md)
+ [源码位置](./Java/src/main/java/com/num19) , [讲解](./Java/src/main/java/com/num19/README.md)
 
 
 ### 3. LeetCode -  92 [反转链表 II](https://leetcode-cn.com/problems/reverse-linked-list-ii/)
 
- [源码位置](./Leet-Code/src/main/java/com/num92) ,[讲解](./Leet-Code/src/main/java/com/num92/README.md)
+ [源码位置](./Java/src/main/java/com/num92) ,[讲解](./Java/src/main/java/com/num92/README.md)
 
 
 
@@ -79,7 +79,7 @@
 > ​	中位值都很难啊
 ### 1. LeetCode - 4 [寻找两个有序数组的中位数](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/)
 
- [源码位置](./Leet-Code/src/main/java/com/num4) , [讲解](./Leet-Code/src/main/java/com/num4/README.md)
+ [源码位置](./Java/src/main/java/com/num4) , [讲解](./Java/src/main/java/com/num4/README.md)
 
 
 
@@ -89,56 +89,56 @@
 >
 >   ### 1. LeetCode - 3  [无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
 
- [源码位置](./Leet-Code/src/main/java/com/num3) , [讲解](./Leet-Code/src/main/java/com/num3/README.md)
+ [源码位置](./Java/src/main/java/com/num3) , [讲解](./Java/src/main/java/com/num3/README.md)
 
 ### 2. LeetCode - 5 [最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/)
 
- [源码位置](./Leet-Code/src/main/java/com/num5) , [讲解](./Leet-Code/src/main/java/com/num5/README.md)   
+ [源码位置](./Java/src/main/java/com/num5) , [讲解](./Java/src/main/java/com/num5/README.md)   
 
 ## 4. 数组
 >   大多数数组问题,如果是基于子序列问题, 我们可以用滑动窗口算法
 
 ### 1. LeetCode - 1 [两数之和](https://leetcode-cn.com/problems/two-sum/)
 
- [源码位置](./Leet-Code/src/main/java/com/num1) , [讲解](./Leet-Code/src/main/java/com/num1/README.md)
+ [源码位置](./Java/src/main/java/com/num1) , [讲解](./Java/src/main/java/com/num1/README.md)
 
 ### 2. LeetCode - 152 [乘积最大子序列](https://leetcode-cn.com/problems/maximum-product-subarray/)
 
- [源码位置](./Leet-Code/src/main/java/com/num152) , [讲解](./Leet-Code/src/main/java/com/num152/README.md)
+ [源码位置](./Java/src/main/java/com/num152) , [讲解](./Java/src/main/java/com/num152/README.md)
 
 ### 2. LeetCode - 53 [最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)
 
- [源码位置](./Leet-Code/src/main/java/com/num53) , [讲解](./Leet-Code/src/main/java/com/num53/README.md) 
+ [源码位置](./Java/src/main/java/com/num53) , [讲解](./Java/src/main/java/com/num53/README.md) 
 
 
 ## 5. 10进制转其他进制换问题 (巧)
 
 ### 1. LeetCode - 168 [Excel表列名称](https://leetcode-cn.com/problems/excel-sheet-column-title)    
- [源码位置](./Leet-Code/src/main/java/com/num168) , [讲解](./Leet-Code/src/main/java/com/num168/README.md)
+ [源码位置](./Java/src/main/java/com/num168) , [讲解](./Java/src/main/java/com/num168/README.md)
 
 
 ## 5. 多线程
 
 ### 1. LeetCode - 1195 [交替打印字符串](https://leetcode-cn.com/problems/fizz-buzz-multithreaded/)
 
- [源码位置](./Leet-Code/src/main/java/com/num1195) , [讲解](./Leet-Code/src/main/java/com/num1195/README.md)
+ [源码位置](./Java/src/main/java/com/num1195) , [讲解](./Java/src/main/java/com/num1195/README.md)
 
 
 ## 6. 回溯法
 
 ### 1. LeetCode - 46 [全排序](https://leetcode-cn.com/problems/permutations)
-[源码位置](./Leet-Code/src/main/java/com/num46) , [讲解](./Leet-Code/src/main/java/com/num46/README.md)
+[源码位置](./Java/src/main/java/com/num46) , [讲解](./Java/src/main/java/com/num46/README.md)
 
 ## 7. 排序算法
 ### 1. [排序算法]()
-[源码位置](./Leet-Code/src/main/java/com/sort) , [讲解](./Leet-Code/src/main/java/com/sort/README.md)
+[源码位置](./Java/src/main/java/com/sort) , [讲解](./Java/src/main/java/com/sort/README.md)
 
 ## 7. 递归思想 (DFS)
 
 > ​		其实就是DFS思想.  深度遍历. 其实也好想.  比如深度遍历, 特别适合 层级操作. 都做的是一样的事情. 比如我们树的遍历. 每一层其实都是一样的做法.这种适合用 递归. 
 
 ### 1. [递归思想]()
-[源码位置](./Leet-Code/src/main/java/com/recursive) , [讲解](./Leet-Code/src/main/java/com/recursive/README.md)
+[源码位置](./Java/src/main/java/com/recursive) , [讲解](./Java/src/main/java/com/recursive/README.md)
 
 
 

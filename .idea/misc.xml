@@ -12,6 +12,7 @@
       <list>
         <option value="$PROJECT_DIR$/Leet-Code/pom.xml" />
         <option value="$PROJECT_DIR$/other-practice/pom.xml" />
+        <option value="$PROJECT_DIR$/Java/pom.xml" />
       </list>
     </option>
   </component>
@@ -32,5 +33,5 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>
